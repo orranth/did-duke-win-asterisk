@@ -24,6 +24,11 @@
             text-transform: uppercase;
         }
 
+        /* This makes the asterisk red */
+        .red-star {
+            color: #ff0000; /* Bright red */
+        }
+
         /* The tongue-in-cheek footnote */
         p {
             font-size: 2vw;
@@ -35,6 +40,20 @@
 
         /* Mobile adjustments for the footnote */
         @media (max-width: 600px) {
+            p {
+                font-size: 4vw;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>YES<span class="red-star">*</span></h1>
+
+    <p>*But Caleb...?</p>
+
+</body>
+</html>        @media (max-width: 600px) {
             p {
                 font-size: 4vw;
             }
